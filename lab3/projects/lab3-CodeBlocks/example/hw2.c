@@ -4,7 +4,7 @@
 int hw2(){
     int n, k, bonus, total, head;
 
-    while(scanf("%d %d", &n, &k) != EOF){
+    while (scanf("%d %d", &n, &k) != EOF) {
         total = n;
         head = n;
         for (bonus = n / k; bonus != 0; bonus = head / k) {
